@@ -1,0 +1,30 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0",
+    "parcel-plugin-vue": "^1.5.0",
+    "postcss-px-to-viewport": "0.0.3",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.6",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-rx": "^5.0.0"
+  }
+}

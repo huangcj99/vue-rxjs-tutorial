@@ -1,0 +1,10 @@
+{
+  "modules": false,
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-px-to-viewport": {
+      viewportWidth: 375,
+      selectorBlackList: []
+    }
+  }
+}
